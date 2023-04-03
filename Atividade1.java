@@ -10,16 +10,14 @@ public class Atividade1 {
         int sexo = sc.nextInt();
         System.out.println("Informe sua altura");
         double altura = sc.nextDouble();
-        System.out.println("Informe seu peso atual");
-        double peso = sc.nextDouble();
         double pesoideal;
 
         if (sexo == 1) {
-            pesoideal = (peso * altura) - 58;
+            pesoideal = (62.1 * altura) - 58;
             System.out.println("O seu peso ideal deve ser de: " + pesoideal + "KG");
         }
         if (sexo == 2) {
-            pesoideal = (peso * altura) - 44.7;
+            pesoideal = (72.7 * altura) - 44.7;
             System.out.println("O seu peso ideal deve ser de: " + pesoideal + "KG");
 
         }
